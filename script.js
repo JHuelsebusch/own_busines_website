@@ -34,11 +34,14 @@ let services = [{
 }, {
     'name': 'Inspektionen & Sichtprüfungen',
     'img': 'img/img6.jpg',
-    'description': 'Inspektion'
+    'description': `Überprüfe deine Produktqualität bevor deine Ware das Werk oder Lagerhaus verlässt. <br>
+    Wähle deine Qualitätscheckliste aus vielen Standardoptionen oder entwerfe deine ganz eigenen Spezifikationen. Geschulte und spezialisierte Inspektoren verschaffen sich einen Überblick und prüfen deine Bestellungb anhand deiner Spezifikationen. 
+    Durch einen detailieren Bericht mit Fotos und Fehlerbeschreibungen erhältst du ein umfassendes Bild über den Zustand deiner Ware.`
 }, {
     'name': 'Report Review',
     'img': 'img/img7.jpg',
-    'description': 'Report Check'
+    'description': `Du hast einen Prüfbericht von einem Lieferanten erhalten und kannst nicht beurteilen, ob der Testreport zu deinem Produkt oder deinen Qualitätsanforderungen passt? Oder kannst den Bericht nicht auf europäische und deutsche Normen oder Richtlinien evaluieren?
+    <br> Das ist kein Problem! <br> Für Teilnehmer und Kunden unserer Partner bieten wir eine exklusive Überprüfung deines Berichtes an! <br> Melde dich gerne bei uns!`
 }];
 
 function init() {
@@ -60,8 +63,15 @@ function generateService(service, i) {
 function openService(n) {
     let service = services[n];
     document.getElementById('servDescription').innerHTML = `
-    ${service['name']} <br>
-    ${service['description']}
+            <div>
+                <div class="descriptionCard">
+                    <h3>${service['name']}</h3>
+                    <p>
+                        ${service['description']}
+                    </p>
+                    <img src="${service['img']}" alt="">
+                </div>
+            </div>    
     `;
 }
 
