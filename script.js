@@ -26,17 +26,49 @@ let services = [{
 }, {
     'name': 'E&E-Produkte',
     'img': 'img/img4.jpg',
-    'description': 'CE, EMC, LVD, RED'
+    'description': `Elektrische betriebene Artikel können ein erhebliches Risiko darstellen. Sei es durch Stromschläge, Überhitzungen oder Explosionen. Dadurch gibt es eine Reihe von Normen und Standards, die es einzuhalten gilt. 
+    Hier den Übersicht zu behalten ist nicht leicht. <br>
+    Mit unserer Unterstützung erhältst du einen individuellen Überblick zu deinem Produkt. <br>
+    <br>
+    Unsere Angebote: <br>
+    <ul><li>Elektromagnetische Verträglichkeit (EMC)</li>
+    <li>Niederspannungsrichtlinie (LVD)</li>
+    <li>Ristriction of Hazard Substances (RoHS)</li>
+    <li>Funkanlagenrichtlinie (RED)</li>
+    <li>uvm.</li>
+    </ul>`
 }, {
     'name': 'Spielwaren',
     'img': 'img/img5.jpg',
-    'description': 'EN71'
+    'description': `Die Sicherheit und Qualität von Spiel- und Freizeitartikeln gerät immer wieder in den Focus der Öffentlichekeit. <br>
+    Regelmäßig werden Belastungen von Weichmachern, Cadium, Blei, Nickel, etc festgestellt, die zu einem vollständigen Produktruf führen. <br>
+    Wir helfen dir die Sicherheit und Qualität deines Produktes zu gewährleisten.<br>
+    <br>
+    Unser Angebot umfasst unter anderem:
+    <ul><li>Physikalische Prüfung (scharfe Spitzen und Kanten)</li>
+    <li>Kleinteilüberprüfung</li>
+    <li>Prüfung der Verarbeitungsqualität</li>
+    <li>Funktionalitätsprüfung</li>
+    <li>Prüfung der Entflammbarkeit</li>
+    <li>Toxikologische Beurteilung</li>
+    <li>Prüfung der Warnhinweise und Kennzeichnungen</li>
+    <li>uvm.</li></ul>
+`
 }, {
     'name': 'Inspektionen & Sichtprüfungen',
     'img': 'img/img6.jpg',
     'description': `Überprüfe deine Produktqualität bevor deine Ware das Werk oder Lagerhaus verlässt. <br>
-    Wähle deine Qualitätscheckliste aus vielen Standardoptionen oder entwerfe deine ganz eigenen Spezifikationen. Geschulte und spezialisierte Inspektoren verschaffen sich einen Überblick und prüfen deine Bestellungb anhand deiner Spezifikationen. 
-    Durch einen detailieren Bericht mit Fotos und Fehlerbeschreibungen erhältst du ein umfassendes Bild über den Zustand deiner Ware.`
+    Wähle deine Qualitätscheckliste aus vielen Standardoptionen oder entwerfe deine ganz eigenen Spezifikationen. Geschulte und spezialisierte Inspektoren verschaffen sich einen Überblick und prüfen deine Bestellung anhand deiner Spezifikationen. 
+    Durch einen detailieren Bericht mit Fotos und Fehlerbeschreibungen erhältst du ein umfassendes Bild über den Zustand deiner Ware.<br>
+    <br>
+    Unsere Angebote: <br>
+    <ul><li>Musterziehung aus der Produktion</li>
+    <li>Preshipment Inspection (PSI)</li>
+    <li>Final Random Inspection (FRI)</li>
+    <li>Ladungsüberwachung</li>
+    <li>uvm.</li>
+    </ul>
+    `
 }, {
     'name': 'Report Review',
     'img': 'img/img7.jpg',
