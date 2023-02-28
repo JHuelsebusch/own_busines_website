@@ -352,10 +352,12 @@ nav img {
 }
 
 .descriptionCard img {
-    height: 200px;
+    height: 220px;
+    width: 330px;
+    object-fit: cover;
     position: absolute;
-    top: 120px;
-    right: -200px;
+    top: 60px;
+    right: -250px;
 }
 
 .cardBotton {
@@ -464,10 +466,8 @@ nav img {
 }
 
 #servDescription .descriptionCard img {
-    /* height: 200px;
-    position: absolute; */
     top: 60px;
-    left: -200px;
+    left: -250px;
 }
 
 

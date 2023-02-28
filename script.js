@@ -14,15 +14,37 @@ async function includeHTML() {
 let services = [{
     'name': 'Reach SVHC',
     'img': 'img/img1.jpg',
-    'description': 'Reach SVHC'
+    'description': `Die REACh-Verordnung (Registrierung, Evaluierung und Autorisierung von Chemikalien) gilt nicht nur für Produkte aus dem Chemie-Sektor, sondern auch für alle Alltagsgegenstände. <br>
+   Händler und Importeure stehen in der Pflicht zu wissen, welche Materialien und Substanzen ihr Produkt enthält. Zudem sind sie ebenfalls verpflichtet Endkunden und Verbrauchern auf Anfrage Auskunft über enthaltene 
+   SVHC (Substances of Very High Concern - besonders besorgniserregende Stoffe) zu geben. <br>
+   Die Liste der besonders besorgniseregenden Stoffe enthält eine Reihe von karzinogenen, mutagenen, reproduktionstoxischen, persistenten oder bioakkumulierbaren Substanzen und wird halbjährlich von der ECHA (Europäische Chemikalienagentur) aktualisiert.<br>
+   Mit uns bist du hier immer auf dem neusten Stand und bekommst Unterstützung zur Einhaltung der REACh-Vorschriften! `
 }, {
     'name': 'Chemische Tests',
     'img': 'img/img2.jpg',
-    'description': 'PAH, SCCP, Pb, Cd,...'
+    'description': `Jeder Hersteller und/oder Importeur muss sicherstellen, dass seine Produkte bei einem vorhersehbaren Gebrauch keinerlei Auswirkungen auf die Gesundheit des Verwenders haben. 
+    Dies gilt für jegliche Arten von Bedarfsgegenständen. <br>
+    <br>
+    Unsere Chemiekalienanalyse enthält - je nach Kundenwunsch - u.A: <br>
+    <ul><li>Polyzyklische Aromatische Kohlenwasserstoffe (PAH)</li>
+    <li>Kurzkettige Chlorparaffine (SCCP)</li>
+    <li>Schwermetalrückstände</li>
+    <li>Weichmacher</li>
+    <li>Bisphenol A (BPA)</li>
+    <li>uvm.</li></ul>`
 }, {
     'name': 'Lebensmittelkontakt',
     'img': 'img/img3.jpg',
-    'description': 'LFGB'
+    'description': `Lebensmittel kommen im Haushalt mit vielen Bedarfsgegenständen in Berührung - sei es bei der Lagerung oder Aufbewahrung, bei der Zubereitung von Speisen oder Servieren von Gerichten. <br>
+    Für all diese Artikel gelten strenge gesetzliche Vorgaben. In erster Linie dürfen sie keine Gefahr für die Gesundheit darstellen. Es dürfen keinerlei Stoffe vom Gegenständen auf die Lebensmittel übergehen, 
+    welche toxisch sind, zu einer unvertretbaren Änderung des Lebensmittel führen oder eine Veränderung des Geruchs oder Geschmacks bewirken. <br>
+    <br>
+    Unsere Angebote enthalten: <br>
+    <ul><li>Sensorische Prüfung</li>
+    <li>Prüfung der Gesamtmigration</li>
+    <li>viele weitere materialabhängige Prüfungen</li>
+    </ul>`
+
 }, {
     'name': 'E&E-Produkte',
     'img': 'img/img4.jpg',
@@ -40,7 +62,7 @@ let services = [{
 }, {
     'name': 'Spielwaren',
     'img': 'img/img5.jpg',
-    'description': `Die Sicherheit und Qualität von Spiel- und Freizeitartikeln gerät immer wieder in den Focus der Öffentlichekeit. <br>
+    'description': `Die Sicherheit und Qualität von Spiel- und Freizeitartikeln gerät immer wieder in den Focus der Öffentlichenkeit.
     Regelmäßig werden Belastungen von Weichmachern, Cadium, Blei, Nickel, etc festgestellt, die zu einem vollständigen Produktruf führen. <br>
     Wir helfen dir die Sicherheit und Qualität deines Produktes zu gewährleisten.<br>
     <br>
@@ -78,6 +100,7 @@ let services = [{
 
 function init() {
     renderService();
+    openService(0);
 }
 
 function renderService() {
